@@ -1,0 +1,45 @@
+#icon1 {
+  float: left;
+}
+h1 {
+  float: left;
+}
+#action {
+  float: left;
+  display: none;
+}
+#mainbar {
+  position: sticky;
+  top: 0;
+}
+#h61{
+    float: left;
+}
+#head{
+    height: 10px;
+}
+#header{
+  font-size: 50px;
+}
+#myname{
+  height: 600px;
+  width: 1200px;
+  object-fit: cover;
+}
+body{
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    float: left;
+    nav-index: 0;
+  }
+  #action {
+    float: left;
+    display: block;
+  }
+  #mainbar {
+    display: none;
+  }
+}

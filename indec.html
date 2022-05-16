@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ayush Ranjan</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <script>
+        function A_open() {
+            document.getElementById("navbar").style.display = "block";
+        }
+        function A_close() {
+            document.getElementById("navbar").style.display = "none";
+        }
+        
+        const mediaQuery = window.matchMedia('(max-width: 768px)')
+        function so(a){
+            if(a.matches){
+                document.getElementById("action").style.display = "block";
+            }
+            else{
+                document.getElementById("action").style.display = "none";
+            }
+        } 
+        mediaQuery.addListener(so)
+        so(mediaQuery)
+           
+       
+       
+
+        
+         
+
+    </script>
+
+
+
+<div class="w3-sidebar  w3-bar-block w3-red w3-align-left w3-animate-left " id="navbar" style="display: none;" >
+       
+        <button class="w3-button w3-hover-white w3-bar-item w3-large w3-padding-large w3-mobile"
+            onclick="A_close()">close &times</button>
+        <a href="https://www.w3schools.com/css/css_navbar_horizontal.asp" class="w3-bar-item w3-large w3-button w3-hover-white w3-padding-large w3-mobile">Access</a>
+        <a href="#" class="w3-bar-item w3-large w3-button w3-hover-white w3-padding-large w3-mobile">link</a>
+        <a href="#" class="w3-bar-item w3-large w3-button w3-hover-white w3-padding-large w3-mobile">link</a>
+    </div>
+
+    <div id="head" class="w3-container w3-green">
+        <a id="action" class="w3-bar-item w3-hover-white w3-padding-large w3-green w3-xxlarge"  onclick="A_open()"><i class="fa fa-bars"></i></a>     
+        <h1 class=>Howdy</h1>
+    </div>
+
+    <div class=" w3-container w3-green">
+    </div>
+    <div class="w3-container w3-green">
+    <div class="navbar" class="w3-bar w3-green">      
+    </div>
+</div>
+
+<div id="mainbar" >
+    <div class="w3-bar w3-container w3-green">
+        <a href="#" class="w3-bar-item w3-hover-white w3-padding large w3-mobile w3-button">Contact Us</a>
+        <a href="#" class="w3-bar-item w3-hover-white w3-padding large w3-mobile w3-button">Contact Us</a>
+        <a href="#" class="w3-bar-item w3-hover-white w3-padding large w3-mobile w3-button">Contact Us</a>
+        <a href="#" class="w3-bar-item w3-hover-white w3-padding large w3-mobile w3-button">Contact Us</a>
+
+    </div>
+</div>
+
+<div id="mainbody" class="w3-panel w3-center">
+<p class="w3-mobile w3-center" id="header">I'm Ayush Ranjan</p>
+<img id="myname" src="img1.jpg" class="w3-image" >
+<p id="inp" class="w3-panel w3-xlarge">
+    Hi, This is Ayush, A normal boy who loves web developing and solving maths problems. I also do "nothing" during pass time.</p>
+</div>
+<div class="w3-panel w3-center w3-xlarge">
+    <p class="w3-xxlarge w3-left-align w3-cursive">
+        My skills
+    </p>
+    <p class="w3-wide w3-left-align">Solving maths</p>
+    <div class="w3-blue-grey">
+      <div class="w3-dark-grey w3-center w3-wide" style="height: 40px;width:95%"><p class="w3-padding w3-padding-top w3-medium">90%</p></div>
+    </div>
+    <p class="w3-wide w3-left-align">Web developing</p>
+    <div class="w3-blue-grey">
+      <div class="w3-dark-grey w3-center w3-wide" style="height: 40px;width:70%"><p class="w3-padding w3-padding-top w3-medium">70%</p></div>
+    </div>
+    
+</div>
+
+
+<br>
+<br>
+<br>
+
+<div class="w3-panel">
+  <p class="w3-xxlarge w3-left-align w3-cursive">Contact me</p>
+<form action="data collected.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" method="post">
+    <h2 class="w3-center">Contact Us</h2>
+     
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+        </div>
+    </div>
+    
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+        </div>
+    </div>
+    
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+        </div>
+    </div>
+    
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+        </div>
+    </div>
+    
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+        </div>
+    </div>
+    
+    <button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Send</button>
+    
+    </form>
+  </div>
+<br>
+<br>
+<br>
+
+  <hr>
+
+  <div class="fotter">
+<p class="w3-small w3-wide w3-center">Copyright @Ayush Ranjan with self CSS and W3.css</p>
+  </div>
+</body>
+
+</html>
